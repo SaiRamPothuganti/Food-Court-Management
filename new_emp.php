@@ -25,7 +25,7 @@
 		
 			<h1><b>Please Enter Details:</b></h1><br/><br/>
 			
-			<form method="POST" id="emp_details">
+			<form method="POST"  action="new_emp_process.php">
 			
 			First Name: 
 			<input type="text" name="firstName"/><br/><br/>
@@ -42,7 +42,7 @@
 				<option value="pt">Contract</option>
 			</select><br/><br/>
 			Briefly describe about your previous experience: (max length is 250)<br/>
-			<textarea maxlength="250" rows="4" cols="35"></textarea><br/><br/>
+			<textarea maxlength="250" rows="4" cols="35" name = "description"></textarea><br/><br/>
 			<input type="submit" value="Submit"/>
 			</form>
 		</div>

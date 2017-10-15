@@ -2,7 +2,7 @@
 <html>
 	
 	<head>
-		<title>Food Court User Login</title>
+		<title>User Login</title>
 		<style>
 			.center{
 				margin:auto;
@@ -23,7 +23,7 @@
 	<div class="center">
 		<h1> <b> FOOD COURT <b> </h1>
 		<h2> User Login </h2>
-		
+		<form method="post" action="ViewItems.php">
 		
 		<table cellpadding="5" cellspacing="5">
 			<tr>
@@ -32,15 +32,15 @@
 			</tr>
 			<tr>
 				<td><label>Password:</label></td>
-				<td><input type="text" name="pwd"/></td>
+				<td><input type="password" name="pwd"/></td>
 			</tr>
 			
 			
 			<tr>
 			<td><a href="ForgetPassWord.html"> Forget Password </a></td>
-				<td><input   type="submit" value="Add"/><td>			
+				<td><input   type="submit" value="Login"/><td>			
 			</tr>
-			
+			</form>
 			
 			
 		</table>

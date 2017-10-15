@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html>
 <head>
 <style>
@@ -40,7 +40,7 @@
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
-					body {
+body {
    background-image: url("Admin.png");
     background-color: #cccccc;
 	background-repeat: no-repeat; 
@@ -55,9 +55,9 @@
 <div class="dropdown">
   <button class="dropbtn">Add</button>
   <div class="dropdown-content">
-    <a href="AddItems.html">Item Type </a>
-    <a href="ItemName.html">Item Name </a>
-    <a href="new_emp.html">Employee</a>
+    <a href="AddItems.php">Item Type </a>
+    <a href="ItemName.php">Item Name </a>
+    <a href="new_emp.php">Employee</a>
   </div>
 </div>
 
@@ -66,7 +66,7 @@
 <div class="dropdown">
   <button class="dropbtn">Update</button>
   <div class="dropdown-content">
-    <a href="UpdateStock.html">Stock </a>
+    <a href="UpdateStock.php">Stock </a>
 
   </div>
 </div>
@@ -75,13 +75,13 @@
 <div class="dropdown">
   <button class="dropbtn">View Sales</button>
   <div class="dropdown-content">
-    <a href="DateWiseSales.html">Date Wise</a>
-    <a href="Date%20to%20date.html">Date to Date </a>
+    <a href="datebydate.php">Today Sales</a>
+    <a href="saleout.php"> Total Sales till now  </a>
     
 
   </div>
 </div>
- <button class="dropbtn">Logout </button>
+ <button class="dropbtn" onClick = "window.close();">Logout </button>
 </body>
 </html>
 
